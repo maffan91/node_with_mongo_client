@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Product = require('./models/product');
 
-const url = 'mongodb+srv://affanned:Ql0kveRCz3JD8cet@cluster0.bp14q6e.mongodb.net/products_test?retryWrites=true&w=majority'
+const url = 'YOUR_URL_HERE';
 
 
 mongoose.connect(url).then(() => {
